@@ -1,0 +1,46 @@
+# ==========================================
+# CONFIDENTIAL RESEARCH DATA - DO NOT COMMIT
+# ==========================================
+
+data/
+raw_data/
+sequences/
+structures/
+outputs/
+results/
+
+# Biological sequences
+*.fasta
+*.fa
+*.faa
+*.fastq
+
+# Structures
+*.pdb
+*.cif
+*.mmcif
+
+# Experimental datasets
+*.xlsx
+*.xls
+*.csv
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
