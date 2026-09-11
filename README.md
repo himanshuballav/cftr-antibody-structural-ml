@@ -14,17 +14,17 @@ feature engineering, and machine-learning classification.
 
 
 
-Antibody sequence input  
+Antibody sequence input
 
-→ Structure prediction  
+→ Structure prediction
 
-→ IMGT numbering and CDR mapping  
+→ IMGT numbering and CDR mapping
 
-→ Structural/interface analysis  
+→ Structural/interface analysis
 
-→ Feature engineering  
+→ Feature engineering
 
-→ Machine-learning modeling  
+→ Machine-learning modeling
 
 → Interpretation and visualization
 
@@ -58,6 +58,22 @@ Antibody sequence input
 
 
 
+\## Documentation
+
+
+
+Detailed methodology and workflow documentation:
+
+
+
+\- \[Delta Feature Definitions](docs/DELTA\_FEATURE\_DEFINITIONS.md) — definitions and interpretation of signed and absolute Human-versus-Rhesus structural deltas.
+
+\- \[External and Manual Pipeline Steps](docs/EXTERNAL\_AND\_MANUAL\_STEPS.md) — documents upstream steps performed outside standard local Python, including signal-peptide processing, IMGT/DomainGapAlign annotation, HADDOCK docking, and ChimeraX-dependent analysis.
+
+
+
+
+
 \## Data Availability
 
 
@@ -73,4 +89,8 @@ repository because they contain confidential or unpublished research data.
 This repository contains the computational workflows, analysis scripts,
 
 environment information, and documentation.
+
+
+
+
 
